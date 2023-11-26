@@ -5,12 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Systems and Technologies Activity 1</title>
+    <style>
+        a{
+            color: #000;
+            text-decoration: none;
+            position: relative;
+            font-weight: 700;
+            
+        }
+        a::after{
+            content: '';
+            width: 0;
+            height: 2px;
+            background-color: #000;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            transition: .2s;
+        }
+        a:hover::after{
+            width: 100%;
+            transition: width .3s linear;
+        }
+    </style>
 </head>
 <body>
      <!-- There are 115 html tags in this code -->
-    <a href="index.html">Activity 1</a><br>
+    <a href="index.html">Activity 1</a><br><br>
     
-    <acronym>Acronym Example</acronym>
+    <acronym >Acronym Example</acronym>
     <applet>Applet Example</applet>
     <base>
     <link >
