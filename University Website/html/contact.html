@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="shortcut icon" href="../img/ssu-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .sub-header{
+            background-image: linear-gradient(rgba(61, 73, 129, 0.7),rgba(4,9,30,0.7)),url(../img/background.jpg);
+        }
+    </style>
+</head>
+<body>
+
+<section class="sub-header">
+    <nav>
+        <a href="../index.html"><img decoding="async" src="../img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="toggleMenu()"></i>
+            <ul>
+                <li><a href="../index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="./about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="./course.html" onclick="toggleMenu()">Course</a></li>
+                <li><a href="./blog.html" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.521309855187!2d123.9855327142222!3d12.742160291287484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sMV8J%2BFJW!2sT.%20De%20Castro%20Street%2C%20Bulan%2C%204706%20Sorsogon!5e0!3m2!1sen!2sph!4v1637636046237!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Zona Otso Bulan Sorsogon</h5>
+                    <p>Sorsogon State University</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>09487754060</h5>
+                    <p>24/7</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>njerickarcenal@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="jerickarcenalnaales@gmail.com" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hi-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>Contact Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut farhan.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by JDev.</p>
+</section>
+<script src="../js/main.js"></script>
+</body>
+</html>
