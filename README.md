@@ -1,8 +1,8 @@
-GROUP MEMBERS.
--Jerick Navales
--Chezka Gayle Banania
--Regine Frencillo
--Noime Navarro
+GROUP MEMBERS. <br>
+-Jerick Navales <br>
+-Chezka Gayle Banania <br>
+-Regine Frencillo <br>
+-Noime Navarro <br>
 -Jerica Gustuir
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fjerick-navales%3Ffbclid%3DIwAR1BmaHNI1d7_9e52cWYwWRlF8zRGIq90ytBCa86Jf8pMSYQQyp6avFTROA&label=Bwesita&labelColor=%23697689&countColor=%232ccce4)
