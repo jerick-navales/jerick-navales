@@ -1,3 +1,10 @@
+GROUP MEMBERS.
+-Jerick Navales
+-Chezka Gayle Banania
+-Regine Frencillo
+-Noime Navarro
+-Jerica Gustuir
+
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fjerick-navales%3Ffbclid%3DIwAR1BmaHNI1d7_9e52cWYwWRlF8zRGIq90ytBCa86Jf8pMSYQQyp6avFTROA&label=Bwesita&labelColor=%23697689&countColor=%232ccce4)
 
 [![Jewick](https://img.shields.io/badge/Jewick-Navales-yellow?labelColor=blue&style=for-the-badge&logo=00A98F&logoColor=A9225C&link=https://web.facebook.com/profile.php?id=100074112946757)](https://web.facebook.com/profile.php?id=100074112946757)
